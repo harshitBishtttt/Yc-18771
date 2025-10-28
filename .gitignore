@@ -1,6 +1,6 @@
-# Ignore everything
-*
 
-# But not these!
 !.gitignore
-!cloude_terror.tf
+/terraform.tfstate
+/terraform.tfstate.backup
+/.terraform
+/.terraform.lock.hcl
